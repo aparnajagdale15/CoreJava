@@ -1,12 +1,14 @@
 package iteratives;
 
-public class Q10 {
+public class DowhileQ4 {
 
 	public static void main(String[] args) {
-		for(int i= 50;i>=1;i--) {
-			if(i%2==0)
+		int i =10;
+		do {
 			System.out.println(i);
-		}
+			i--;
+			
+		}while(i>=1);
 
 	}
 
